@@ -23,8 +23,6 @@ Avoid conflicting reservations. A single room may only be reserved by a single c
 Search for recommended rooms. If there are no available rooms for the customer's date range, a search will be performed that displays recommended rooms on alternative dates. The recommended room search will add seven days to the original checkin and checkout dates to see if the hotel has any availabilities, and then display the recommended rooms/dates to the customer.
 Rubric Tip: The Rubric item "Use a for loop or while loop to iterate over and process data sets", is related to application allowing customers to reserve a room with the above-mentioned specifics.
 
-Example: If the customers date range search is 1/1/2020 – 1/5/2020 and all rooms are booked, the system will search again for recommended rooms using the date range 1/8/2020 - 1/12/2020. If there are no recommended rooms, the system will not return any rooms.
-
 Room Requirements
 Room cost. Rooms will contain a price per night. When displaying rooms, paid rooms will display the price per night and free rooms will display "Free" or have a $0 price.
 Unique room numbers. Each room will have a unique room number, meaning that no two rooms can have the same room number.
@@ -34,7 +32,7 @@ The application will have customer accounts. Each account has:
 
 A unique email for the customer. RegEx is used to check that the email is in the correct format (i.e., name@domain.com).
 A first name and last name.
-The email RegEx is simple for the purpose of this exercise and may not cover all real-world valid emails. For example "name@domain.co.uk" would not be accepted by the above RegEx because it does end with ".com". If you would like to try to make your RegEx more sophisticated, you may—but it is not required for this project.
+The email RegEx is simple for the purpose of this exercise and may not cover all real-world valid emails. For example "name@domain.com" would not be accepted by the above RegEx because it does end with ".com". If you would like to try to make your RegEx more sophisticated, you may—but it is not required for this project.
 
 Error Requirements
 The hotel reservation application handles all exceptions gracefully (user inputs included), meaning:
